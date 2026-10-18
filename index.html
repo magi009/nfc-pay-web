@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#071525">
+<meta name="description" content="Descarga NFC Pay para Android. Versión de prueba para comercios; la distribución iOS está en preparación.">
+<title>NFC Pay — Descarga oficial de demostración</title>
+<style>
+:root{color-scheme:dark;--bg:#071525;--panel:#11263b;--muted:#a3b8cc;--blue:#42a5ff;--line:#284257}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% 0,#133b60 0,transparent 49%),var(--bg);color:#f1f7ff;font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:1000px;margin:auto;padding:22px 20px 70px}header{display:flex;align-items:center;gap:12px;margin-bottom:62px;font-weight:800;letter-spacing:.2px}header svg{width:40px;height:40px}
+.pill{display:inline-block;background:#173a54;border:1px solid #3474a7;color:#b9e2ff;border-radius:100px;padding:5px 12px;font-size:12px;font-weight:700}
+h1{font-size:clamp(40px,7vw,70px);line-height:1.07;letter-spacing:-2px;margin:22px 0}h2{font-size:23px;margin:0 0 12px}p{color:var(--muted)}.intro{max-width:690px;font-size:19px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:36px}.card{border:1px solid var(--line);background:linear-gradient(155deg,#17344d,var(--panel));border-radius:23px;padding:28px;min-height:310px;display:flex;flex-direction:column;align-items:flex-start}
+.platform{font-size:34px;margin-bottom:14px}.card p{margin-top:0}.card .spacer{flex:1}.button{display:inline-flex;justify-content:center;align-items:center;text-align:center;text-decoration:none;font-weight:750;border-radius:13px;background:var(--blue);color:#001d37;padding:14px 21px;min-height:52px}.button.secondary{background:#243e53;color:#d0dfed;border:1px solid #3a5971}.note{font-size:13px;color:#aec3d5;margin-top:12px}
+section.instructions{margin-top:52px;max-width:760px}ol{padding-left:24px;color:#c9d9e7}li{padding:6px 0}.warning{background:#162c42;border:1px solid #315a75;border-radius:16px;padding:16px 20px;margin:36px 0;color:#caddf0}
+footer{border-top:1px solid var(--line);margin-top:55px;padding-top:22px;color:var(--muted);font-size:13px}
+a{color:#9fd1ff}a:focus-visible{outline:3px solid #fff;outline-offset:4px}
+</style>
+</head>
+<body><main>
+<header><svg viewBox="0 0 44 44" aria-hidden="true"><rect width="44" height="44" rx="12" fill="#42a5ff"/><path d="M9 22h9m8 0h9M18 13c5 4 5 14 0 18m8-18c-5 4-5 14 0 18" stroke="#06223e" stroke-width="3" stroke-linecap="round" fill="none"/></svg> NFC Pay</header>
+<div class="pill">VERSIÓN DE DEMOSTRACIÓN · SIN COBROS REALES</div>
+<h1>Tu celular.<br>Tu punto de cobro.</h1>
+<p class="intro">Prueba NFC Pay, una aplicación para comerciantes con detección NFC, perfiles de negocios, bancos principales y cobros simulados. La aceptación de tarjetas reales aún no está habilitada.</p>
+<div class="cards">
+<article class="card">
+<div class="platform" aria-hidden="true">🤖</div><h2>Android</h2>
+<p>APK de prueba generado por GitHub Actions. Disponible para instalar en teléfonos Android compatibles.</p>
+<div class="spacer"></div>
+<a class="button" href="https://github.com/magi009/-nfc-pay-demo/actions">Obtener APK desde GitHub ↗</a>
+<span class="note">Descarga para usuarios autorizados del repositorio privado mientras preparamos distribución pública. No procesa tarjetas ni transfiere dinero.</span>
+</article>
+<article class="card">
+<div class="platform" aria-hidden="true"></div><h2>iPhone / iOS</h2>
+<p>Versión en preparación. La instalación de iOS requerirá una compilación firmada y distribución autorizada mediante TestFlight o App Store.</p>
+<div class="spacer"></div>
+<span class="button secondary" aria-disabled="true">Próximamente en TestFlight</span>
+<span class="note">No hay IPA ni enlace de instalación disponible todavía.</span>
+</article>
+</div>
+<section class="instructions"><h2>Cómo instalar NFC Pay en Android</h2>
+<ol><li>Descarga el archivo APK con el botón de arriba.</li><li>Abre el archivo descargado en tu teléfono Android.</li><li>Si Android solicita autorización para esta fuente, habilítala únicamente si confías en el archivo.</li><li>Instala y abre NFC Pay. Activa NFC para probar su detección y utiliza los cobros simulados.</li></ol></section>
+<div class="warning"><strong>Aviso importante:</strong> NFC Pay está en fase de prueba. El estado «NFC activado» no significa que el dispositivo esté certificado para aceptar pagos bancarios. No acerques tarjetas esperando cobros reales. No introduzcas números de cuenta ni datos sensibles.</div>
+<footer>© NFC Pay · Prototipo de demostración · <a href="https://github.com/magi009/-nfc-pay-demo">Proyecto en GitHub</a></footer>
+</main></body></html>
